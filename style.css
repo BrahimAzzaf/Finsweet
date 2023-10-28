@@ -244,14 +244,14 @@ section{
     padding: 30px 20px;
     width: 300px;
     border-radius: 12px;
-    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(2px 4px 6px black);
     
 }
 
-.project{
-    background: url(/images/Tint.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+.project1{
+    background: url(./images/Tint.png);
 }
 .project h4{
     color: #FFF;
@@ -265,20 +265,16 @@ section{
 
 
 .project2{
-    background:  url(/images/Tint2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background:  url(./images/Tint2.png);
 } 
 .project3{
-    background: url(/images/Tint3.png) 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(./images/Tint3.png) 50%;
 }
 
 
 /* CTA */
 .CTA{
-    background: var(--Black)  url(/images/BG.png)  ;
+    background: var(--Black)  url(./images/BG.png)  ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
